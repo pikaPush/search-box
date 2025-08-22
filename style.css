@@ -53,11 +53,17 @@ body {
   right: -2px;
   top: 0;
   width: 50px;
-  background-color: #c93f56;
+  background-color: #fff;
   height: 100%;
-  border-radius: 0 30px 30px 0;
+  border-radius: 30px;
   text-align: center;
   line-height: 50px;
   font-size: 25px;
   color: #ccc;
+}
+
+#check:checked ~ .search-box .search {
+  background-color: #c93f56;
+  color: #ccc;
+  border-radius: 0 30px 30px 0;
 }
