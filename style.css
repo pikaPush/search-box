@@ -35,6 +35,10 @@ body {
   max-width: 380px;
 }
 
+.box input[type="checkbox"] {
+  display: none;
+}
+
 .box .search-box input {
   position: absolute;
   height: 100%;
