@@ -19,5 +19,11 @@ body {
 .box {
   width: 100%;
   max-width: 400px;
+}
+
+.box .search-box {
+  height: 50px;
+  max-width: 380px;
   background-color: red;
+  margin: auto;
 }
