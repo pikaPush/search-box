@@ -26,6 +26,8 @@ body {
   height: 50px;
   max-width: 380px;
   margin: auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
 }
 
 .box .search-box input {
