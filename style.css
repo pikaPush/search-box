@@ -40,3 +40,12 @@ body {
   font-weight: 500;
   background-color: #fff;
 }
+
+.box .search-box .search {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50px;
+  background-color: #c93f56;
+  height: 100%;
+}
