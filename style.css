@@ -24,10 +24,14 @@ body {
 .box .search-box {
   position: relative;
   height: 50px;
-  max-width: 380px;
+  max-width: 50px;
   margin: auto;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   border-radius: 30px;
+}
+
+#check:checked ~ .search-box {
+  max-width: 380px;
 }
 
 .box .search-box input {
